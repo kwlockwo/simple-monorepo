@@ -11,3 +11,8 @@ services:
     rootDir: app-b
     buildCommand: npm install
     startCommand: node server.js
+envVarGroups:
+  - name: Test
+    envVars:
+      - key: TEST
+        value: test
