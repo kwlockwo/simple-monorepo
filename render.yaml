@@ -4,10 +4,10 @@ services:
     runtime: node
     rootDir: app-a
     buildCommand: npm install
-    buildCommand: node server.js
+    startCommand: node server.js
   - type: web
     name: App-B
     runtime: node
     rootDir: app-b
     buildCommand: npm install
-    buildCommand: node server.js
+    startCommand: node server.js
