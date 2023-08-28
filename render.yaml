@@ -12,8 +12,8 @@ services:
     buildCommand: npm install
     startCommand: node server.js
 # Add comment
-envVarGroups:
-  - name: Test
-    envVars:
-      - key: TEST
-        value: test
+#envVarGroups:
+#  - name: Test
+#    envVars:
+#      - key: TEST
+#        value: test
